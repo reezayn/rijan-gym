@@ -1,0 +1,10 @@
+.exercises-container{
+    @apply bg-gradient-to-r from-[#000000] to-[#272727] text-white
+}
+
+/* .searchbox{
+    border: 2px solid red;
+}
+.horizontalscrollbar{
+    border: 2px solid white;
+} */

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+
+.div-1{
+    font-family: 'Open Sans', sans-serif;
+}
+.div-2{
+    font-family: 'Chelsea Market', cursive;
+}
+.description{
+    border: 5px solid red;
+    border-radius: 15px;
+}
+.description{
+    @apply bg-gradient-to-r from-[#7e2828] to-[#744b4b]
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+.nav-container{
+    font-family: 'Metal Mania', cursive;
+}
+li{
+    list-style: none;
+}
+.nav-li-pc{
+    margin: 17px;
+    padding: 17px;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-li-pc:hover{
+    color: #f36100;
+}
+.nav-li-mobile{
+    margin: 17px;
+    padding: 2px;
+    border-bottom: 2px solid #cac7c6;
+    text-align: center;
+    font-size: 18px;
+}
+.nav-li-mobile:hover{
+    color: #f36100;
+}

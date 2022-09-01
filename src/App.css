@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+/* Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icon-pc{
+    cursor: pointer;
+    font-size: 19px;
+    margin: 11px;
+    padding: 0px;
+    transition: all 0.3s ease 0s;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.icon-pc:hover{
+    color: #f36100;
 }
-
-.App-link {
-  color: #61dafb;
+.icon-pc{
+    cursor: pointer;
+    font-size: 19px;
+    margin: 11px;
+    padding: 0px;
+    transition: all 0.3s ease 0s;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon-pc:hover{
+    color: #f36100;
+}
+.icon-mb{
+    cursor: pointer;
+    font-size: 25px;
+    margin: 15px;
+    padding: 0px;
+    color: #f37f32;
+    transition: all 0.3s ease 0s;
+}
+.icon-mb:hover{
+    color: black;
+}
+.btn{
+    @apply p-3 bg-gradient-to-r from-[red] to-[#f85757] text-white 
+}
+.btn{
+    font-family: 'Chelsea Market', cursive;
+    border-radius: 15px;
+}
+.btn:hover{
+    @apply p-3 bg-gradient-to-r from-[#f85757] to-[red] text-black 
+}
+::-webkit-scrollbar{
+    width: 0.5rem;
+    background-color: #3d1414;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #e63939;
 }

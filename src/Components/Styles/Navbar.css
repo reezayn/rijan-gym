@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+*{
+    font-family: 'Chelsea Market', cursive;
+}
+.navcontainerpc{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    background-color: black;
+    color: white;
+    height: 75px;
+    width: 100%;
+}
+.navcontainerpc img{
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+.navlipc{
+    margin: 8px;
+    padding: 8px;
+    font-size: 18px;
+}
+.navlipc:hover{
+    color: red;
+    transition: 0.4s ease 0s all;
+    /* text-decoration: underline; */
+}
+
+
+.navcontainermb{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    background-color: black;
+    color: white;
+    height: 65px;
+    width: 100%;
+}
+.navcontainermb img{
+    position: absolute;
+    /* height: 25px; */ 
+    /* I have set height in classname, so not required here */
+    top: 18px;
+    left: 18px;
+}
+.ham-div{
+    position: absolute;
+    right: 25px;
+    font-size: 25px;
+    z-index: 11;
+}
+.ham-div:hover{
+    cursor: pointer;
+    color: red;
+}
+.navlimb{
+    text-align: center;
+    font-size: 17px;
+    width:80%;
+    padding: 5px;
+    margin: 5px;
+    border-bottom: 2px solid rgb(156, 116, 116);
+}
+.navlimb:hover{
+    color: red;
+    transition: 0.4s ease 0s all;
+    /* text-decoration: underline; */
+}
+.mbnavwindow{
+    @apply bg-gradient-to-r from-[#7e2828] to-[#744b4b] 
+}
